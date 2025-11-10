@@ -1,0 +1,112 @@
+**List of projects**
+
+**Mobile Apps:**
+
+1. Janus mobile app (ReactNative)
+2. E-commerce for UK markets (user app, admin app) Android Studio + java
+3. Android and iOS apps for Barbers (ReactNative)
+4. BookWonk: Book exchange app (ReactNative)
+5. Golfrica (ReactNative)
+6. Alarm App (Android Studio)
+7. Carpool (ReactNative)
+8. PolyGlotsPoint (ReactNative)
+
+9. backend: Flask
+
+10. Swaps App: Social Media application
+
+11. Android Studio
+12. ReactNative
+13. APIs: Laravel
+
+14.  Video Dune (Android Studio)
+
+15. Web: Laravel
+
+16. Diary: Android Studio
+17. Medical Dictionary offline: Android Studio
+18. TotalEnglish: Language Learning (Android Studio)
+19. ContactsBook (Android Studio)
+20. Location Picker: Ionic
+21. AdMob: Android (Android Studio)
+22. StateArgo Company (Android Studio)
+23. FlightMates (Android Studio) -> https://github.com/theirfanirfi/Android-Flight-Mates-App
+24. BD-Parcel: Android Browser App (Android Studio) -> https://github.com/theirfanirfi/BD-Parcel-Android-Browser-App
+25. Service Provider (Android Studio)
+26. Insta Downloader (Android Studio) -> https://github.com/theirfanirfi/Android-Insta-Downloader-App
+27. Calendar App (inonic): [https://github.com/theirfanirfi/CalendarApp-in-ionic](https://github.com/theirfanirfi/CalendarApp-in-ionic)
+28. EventsApp: Android studio -> [https://github.com/theirfanirfi/EventsApp](https://github.com/theirfanirfi/EventsApp)
+29. Laptop Registration: Angular -> [https://github.com/theirfanirfi/LaptopApp-Angular-4](https://github.com/theirfanirfi/LaptopApp-Angular-4)
+30. Dating App: ReactNative
+31. Synapse: (ReactNative)
+
+  
+
+**Web applications**
+
+1. Blood donation society (Laravel)
+2. E-commerce for UK markets (Laravel)
+3. Angular E-commerce  (Angular)
+4. Austrian Community Membership: Forever community (Flask + React) (Domain Drivent Architecture)
+5. Flask-CMS
+6. Vittas International: Lending Company (FLASK)
+7. Pizza-Hut (Flask)
+8. Uber Rides MVP (Flask)
+9. Privacy Application (Laravel)
+10.  NewsPaper: (Python Flask)
+11. MaxTech Tutorial Site (WordPress with custom themes and plugins development) -> https://github.com/theirfanirfi/Maxtech-Tutorial-Site-WordPress
+
+  
+
+12. Azad Medicine Company (WordPress)
+13. PPost New Agency: (WordPress) -> https://github.com/theirfanirfi/Ppost-Wordpress
+14. Degree College: Educational (PHP) -> https://github.com/theirfanirfi/Degree-College-Site
+15. E-commerce (ASP.NET) -> https://github.com/theirfanirfi/ASP.NET-shopping-cart
+16. Blog (ASP.NET) -> https://github.com/theirfanirfi/ASP.NET-Blog
+17. School management system (codeIgnitor) -> https://github.com/theirfanirfi/school-management-system
+18. Course Management (Laravel)
+19. Tutorial Series (Laravel): https://github.com/theirfanirfi/laravel-tutorial-series
+20. Kplus: membership site (Laravel)  -> [https://github.com/theirfanirfi/kplus](https://github.com/theirfanirfi/kplus)
+21. Service Platform (Laravel) -> [https://github.com/theirfanirfi/ServicePlatform](https://github.com/theirfanirfi/ServicePlatform)
+22. BrideControl (Laravel)
+23. Project Management (MEN) -> [https://github.com/theirfanirfi/projectManagement](https://github.com/theirfanirfi/projectManagement)
+24. TaleoIT (Laravel) -> [https://github.com/theirfanirfi/TaleoIt](https://github.com/theirfanirfi/TaleoIt)
+25. Adhoc Notification Tool (Angular) -> [https://github.com/theirfanirfi/AdHocNotificationTool](https://github.com/theirfanirfi/AdHocNotificationTool)
+26. Angular Cohort (Angular) -> [https://github.com/theirfanirfi/AngularCohort](https://github.com/theirfanirfi/AngularCohort)
+27. Janus backend: NodeJs, ExpressJs, MongoDB -> [https://github.com/bjka78/janusbackend](https://github.com/bjka78/janusbackend)
+28. Janus Frontend (React) -> [https://github.com/bjka78/janusweb](https://github.com/bjka78/janusweb)
+29. Online Student Placement System: (MERN)
+
+  
+
+  
+
+  
+
+Command Line:
+
+1. Music Search: Python -> https://github.com/theirfanirfi/Python-Music-Search-CMD-app
+2. QueryingDB: Python (Automation) ->
+
+
+
+1. LLM-Driven code generation for web applications using Class Diagram
+2.   Chatbot for Bill Passage, Voter Prediction Using BERT and Statistical Model
+	1. A web-based chatbot enabling users to analyze and predict bill passage through natural language prompts. A fine-tuned BERT model detects intent from Natural language prompts, while semantic similarity identifies related bills. A statistical model evaluates historical patterns to forecast outcomes and voter probabilities. The chatbot also determines if a specific legislator can vote. By combining AI-driven insights with an intuitive interface, it enhances legislative forecasting, helping policymakers, analysts, and the public understand voting dynamics effortlessly.
+3. Fine Tuning BERT model for intent recognition from natural language prompts
+4.   An Event-Driven Data Analysis Automation Tool for IoT
+5.  Predicting Stock Prices Using Sentiment Analysis and LSTM Networks
+	1. Developed a predictive model integrating sentiment analysis and Long Short-Term Memory (LSTM) networks to forecast stock price movements. Utilized historical stock price data alongside sentiment analysis of financial news articles and social media posts to capture market sentiment. Preprocessed textual data to extract sentiment scores, which were combined with numerical stock data. Trained an LSTM model to learn temporal dependencies and predict future stock prices. Achieved improved prediction accuracy by incorporating sentiment information, demonstrating the model's ability to capture the impact of public sentiment on stock market trends.
+6.  Emotion Detection in Text Using Transformer Models
+	1. Developed a machine learning project utilizing transformer-based models to accurately detect and classify emotions in textual data. Leveraged pre-trained models from the Hugging Face library, fine-tuned on the "Emotions in Text" dataset, which comprises 416,370 labeled tweet snippets across six emotion categories: anger, fear, joy, love, sadness, and surprise. Implemented data preprocessing steps such as lowercasing, tokenization, truncation, and padding to prepare the text for model training. Fine-tuned the DistilBERT model using the AdamW optimizer with a learning rate of 2e-5 and a batch size of 32, applying class weights to address class imbalance. Achieved an overall accuracy of 92.4% on the test set, with detailed analysis revealing higher performance on more frequent classes like "joy" and "sadness." Utilized interpretability techniques to understand model predictions and error patterns, providing insights into the model's decision-making process.
+7. Converting Quran and Hadith into RAG for Llama2 and integrating into ReactNative Mobile Application through Python FastAPI backend
+8. Automatic Upwork proposal generation and job applying process using Chrome extension and LLM
+
+
+Supervising
+1. Designing Responses schemas for LLM to process documents and respond into specific schemas
+2. Blackbox testing test case generation and execution using Agentic AI and LLM
+3. Automating Fiverr Gig update using Chrome extension and LLM
+4. ETL tool for pipeline generation, execution, and training ML models
+5. Generating navigable documentation from code using LLM (CodeNav)
+6. Automating Cloud deployment using Agentic AI and LLM
