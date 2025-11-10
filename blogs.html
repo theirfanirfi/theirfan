@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blogs | Irfan Ullah</title>
+  <meta name="description" content="Read Irfan Ullah's articles on machine learning, AI systems, LLMs, and software engineering." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            charcoal: '#11161C',
+            deepnavy: '#14233C',
+            coolgray: '#5C6673',
+            accent: '#1CC8FF',
+            warmgold: '#F0B429',
+            mist: '#F5F7FA'
+          },
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body class="font-sans text-coolgray bg-mist">
+  <!-- Navigation -->
+  <header class="fixed top-0 inset-x-0 z-50 bg-charcoal/90 backdrop-blur">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex items-center justify-between py-4">
+        <a href="index.html" class="text-xl font-semibold text-white tracking-tight">Irfan Ullah</a>
+        <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+          <a href="index.html#home" class="text-white hover:text-accent transition">Home</a>
+          <a href="index.html#about" class="text-white hover:text-accent transition">About</a>
+          <a href="index.html#services" class="text-white hover:text-accent transition">Services</a>
+          <a href="index.html#case-studies" class="text-white hover:text-accent transition">Case Studies</a>
+          <a href="blogs.html" class="text-accent">Blogs</a>
+          <a href="publications.html" class="text-white hover:text-accent transition">Publications</a>
+          <a href="index.html#contact" class="text-white hover:text-accent transition">Contact</a>
+        </nav>
+        <a href="index.html#contact" class="hidden md:inline-flex items-center px-4 py-2 text-sm font-semibold text-charcoal bg-accent rounded-lg shadow hover:bg-white transition">
+          Book a Consultation
+        </a>
+        <button id="menuToggle" class="md:hidden text-white">
+          <span class="sr-only">Open menu</span>
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="md:hidden hidden border-t border-white/10 bg-charcoal">
+      <nav class="flex flex-col px-6 py-4 space-y-3 text-sm font-medium">
+        <a href="index.html#home" class="text-white hover:text-accent transition">Home</a>
+        <a href="index.html#about" class="text-white hover:text-accent transition">About</a>
+        <a href="index.html#services" class="text-white hover:text-accent transition">Services</a>
+        <a href="index.html#case-studies" class="text-white hover:text-accent transition">Case Studies</a>
+        <a href="blogs.html" class="text-accent">Blogs</a>
+        <a href="publications.html" class="text-white hover:text-accent transition">Publications</a>
+        <a href="index.html#contact" class="text-white hover:text-accent transition">Contact</a>
+        <a href="index.html#contact" class="inline-flex items-center justify-center px-4 py-2 text-sm font-semibold text-charcoal bg-accent rounded-md shadow hover:bg-white transition">
+          Book a Consultation
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="pt-24">
+    <!-- Page Header -->
+    <section class="relative overflow-hidden bg-charcoal">
+      <div class="absolute inset-0">
+        <div class="absolute inset-0 bg-gradient-to-br from-charcoal via-charcoal to-deepnavy opacity-90"></div>
+      </div>
+      <div class="max-w-6xl mx-auto px-6 py-16 lg:py-24 relative">
+        <div class="text-white space-y-4">
+          <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-accent/10 text-accent ring-1 ring-accent/30">
+            Articles & Insights
+          </span>
+          <h1 class="text-4xl sm:text-5xl font-bold leading-tight">
+            My Blogs
+          </h1>
+          <p class="text-lg text-white/80 max-w-3xl">
+            Thoughts on machine learning systems, LLMs, AI engineering, and the practical realities of building production-grade intelligent systems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blogs List -->
+    <section class="bg-mist">
+      <div class="max-w-6xl mx-auto px-6 py-20">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Blog 1 -->
+          <article class="bg-white border border-white shadow-sm rounded-2xl overflow-hidden flex flex-col hover:shadow-md transition">
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-xs font-semibold text-accent uppercase tracking-wide">ML Systems</span>
+              <h3 class="mt-3 text-lg font-semibold text-charcoal">Surprising Truths About Building Real-World Machine Learning Systems</h3>
+              <p class="mt-3 text-sm text-coolgray flex-1">
+                Insights into the practical challenges and realities of deploying ML systems in production.
+              </p>
+            </div>
+            <div class="px-6 pb-6">
+              <a href="https://medium.com/@theirfan/surprising-truths-about-building-real-world-machine-learning-systems-b4aba8a60286" target="_blank" rel="noopener" class="inline-flex items-center text-sm font-semibold text-accent hover:text-charcoal transition">
+                Read on Medium →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog 2 -->
+          <article class="bg-white border border-white shadow-sm rounded-2xl overflow-hidden flex flex-col hover:shadow-md transition">
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-xs font-semibold text-accent uppercase tracking-wide">AI Industry</span>
+              <h3 class="mt-3 text-lg font-semibold text-charcoal">The Agentic AI Hype Will Fade and Developers Will Be Back on the Job</h3>
+              <p class="mt-3 text-sm text-coolgray flex-1">
+                A perspective on the future of AI development and the role of developers in the age of agentic AI.
+              </p>
+            </div>
+            <div class="px-6 pb-6">
+              <a href="https://medium.com/@theirfan/the-agentic-ai-hype-will-fade-and-developers-will-be-back-on-the-job-0d1fa31c0445" target="_blank" rel="noopener" class="inline-flex items-center text-sm font-semibold text-accent hover:text-charcoal transition">
+                Read on Medium →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog 3 -->
+          <article class="bg-white border border-white shadow-sm rounded-2xl overflow-hidden flex flex-col hover:shadow-md transition">
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-xs font-semibold text-accent uppercase tracking-wide">LLM Engineering</span>
+              <h3 class="mt-3 text-lg font-semibold text-charcoal">From Feeling to Syntax: The Secret Blueprint for Talking to LLMs</h3>
+              <p class="mt-3 text-sm text-coolgray flex-1">
+                Understanding how to effectively communicate with large language models through proper prompt engineering.
+              </p>
+            </div>
+            <div class="px-6 pb-6">
+              <a href="https://medium.com/@theirfan/from-feeling-to-syntax-the-secret-blueprint-for-talking-to-llms-4c58f70cf88d" target="_blank" rel="noopener" class="inline-flex items-center text-sm font-semibold text-accent hover:text-charcoal transition">
+                Read on Medium →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog 4 -->
+          <article class="bg-white border border-white shadow-sm rounded-2xl overflow-hidden flex flex-col hover:shadow-md transition">
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-xs font-semibold text-accent uppercase tracking-wide">NLP & Context</span>
+              <h3 class="mt-3 text-lg font-semibold text-charcoal">Pragmatics and Large Language Models: Why Context Matters Beyond Words</h3>
+              <p class="mt-3 text-sm text-coolgray flex-1">
+                Exploring the importance of context and pragmatics in understanding how LLMs process and generate language.
+              </p>
+            </div>
+            <div class="px-6 pb-6">
+              <a href="https://medium.com/@theirfan/pragmatics-and-large-language-models-why-context-matters-beyond-words-84c0d7cae114" target="_blank" rel="noopener" class="inline-flex items-center text-sm font-semibold text-accent hover:text-charcoal transition">
+                Read on Medium →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog 5 -->
+          <article class="bg-white border border-white shadow-sm rounded-2xl overflow-hidden flex flex-col hover:shadow-md transition">
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-xs font-semibold text-accent uppercase tracking-wide">Enterprise AI</span>
+              <h3 class="mt-3 text-lg font-semibold text-charcoal">API vs Self-Hosted LLM: Which Path Is Right for Your Enterprise?</h3>
+              <p class="mt-3 text-sm text-coolgray flex-1">
+                A strategic guide to choosing between API-based and self-hosted LLM solutions for enterprise applications.
+              </p>
+            </div>
+            <div class="px-6 pb-6">
+              <a href="https://medium.com/@theirfan/api-vs-self-hosted-llm-which-path-is-right-for-your-enterprise-82c60a7795fa" target="_blank" rel="noopener" class="inline-flex items-center text-sm font-semibold text-accent hover:text-charcoal transition">
+                Read on Medium →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog 6 -->
+          <article class="bg-white border border-white shadow-sm rounded-2xl overflow-hidden flex flex-col hover:shadow-md transition">
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-xs font-semibold text-accent uppercase tracking-wide">AI & Engineering</span>
+              <h3 class="mt-3 text-lg font-semibold text-charcoal">AI Is Nothing But All Software Engineering: You Have No Place in the Industry Without Software</h3>
+              <p class="mt-3 text-sm text-coolgray flex-1">
+                The fundamental connection between AI and software engineering, and why engineering skills are essential.
+              </p>
+            </div>
+            <div class="px-6 pb-6">
+              <a href="https://medium.com/@theirfan/ai-is-nothing-but-all-software-engineering-you-have-no-place-in-the-industry-without-software-a701c99380e7" target="_blank" rel="noopener" class="inline-flex items-center text-sm font-semibold text-accent hover:text-charcoal transition">
+                Read on Medium →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog 7 -->
+          <article class="bg-white border border-white shadow-sm rounded-2xl overflow-hidden flex flex-col hover:shadow-md transition">
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-xs font-semibold text-accent uppercase tracking-wide">ML Modeling</span>
+              <h3 class="mt-3 text-lg font-semibold text-charcoal">Beyond the Straight Line: Why Real-World Regression Isn't Always Linear</h3>
+              <p class="mt-3 text-sm text-coolgray flex-1">
+                Understanding when and why linear regression falls short, and exploring alternative approaches for real-world data.
+              </p>
+            </div>
+            <div class="px-6 pb-6">
+              <a href="https://medium.com/@theirfan/beyond-the-straight-line-why-real-world-regression-isnt-always-linear-a79071dbb648" target="_blank" rel="noopener" class="inline-flex items-center text-sm font-semibold text-accent hover:text-charcoal transition">
+                Read on Medium →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog 8 -->
+          <article class="bg-white border border-white shadow-sm rounded-2xl overflow-hidden flex flex-col hover:shadow-md transition">
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-xs font-semibold text-accent uppercase tracking-wide">MLOps</span>
+              <h3 class="mt-3 text-lg font-semibold text-charcoal">Essential AI Model Deployment Patterns for Monitoring</h3>
+              <p class="mt-3 text-sm text-coolgray flex-1">
+                Key patterns and best practices for monitoring AI models in production environments.
+              </p>
+            </div>
+            <div class="px-6 pb-6">
+              <a href="https://medium.com/@theirfan/essential-ai-model-deployment-patterns-for-monitoring-5d4d31686412" target="_blank" rel="noopener" class="inline-flex items-center text-sm font-semibold text-accent hover:text-charcoal transition">
+                Read on Medium →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog 9 -->
+          <article class="bg-white border border-white shadow-sm rounded-2xl overflow-hidden flex flex-col hover:shadow-md transition">
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-xs font-semibold text-accent uppercase tracking-wide">Model Evaluation</span>
+              <h3 class="mt-3 text-lg font-semibold text-charcoal">That 95% Accuracy? It Might Be a Lie. Here's a Better Way to Judge Your AI Model</h3>
+              <p class="mt-3 text-sm text-coolgray flex-1">
+                Critical insights into model evaluation metrics and why accuracy alone can be misleading.
+              </p>
+            </div>
+            <div class="px-6 pb-6">
+              <a href="https://medium.com/@theirfan/that-95-accuracy-it-might-be-a-lie-heres-a-better-way-to-judge-your-ai-model-29b8b1bf0313" target="_blank" rel="noopener" class="inline-flex items-center text-sm font-semibold text-accent hover:text-charcoal transition">
+                Read on Medium →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog 10 -->
+          <article class="bg-white border border-white shadow-sm rounded-2xl overflow-hidden flex flex-col hover:shadow-md transition">
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-xs font-semibold text-accent uppercase tracking-wide">Ethical AI</span>
+              <h3 class="mt-3 text-lg font-semibold text-charcoal">The Hidden Bias in Our Digital World: A Journey Toward Fairer AI</h3>
+              <p class="mt-3 text-sm text-coolgray flex-1">
+                Exploring bias in AI systems and strategies for building more fair and equitable intelligent systems.
+              </p>
+            </div>
+            <div class="px-6 pb-6">
+              <a href="https://medium.com/@theirfan/the-hidden-bias-in-our-digital-world-a-journey-toward-fairer-ai-27ee3710895c" target="_blank" rel="noopener" class="inline-flex items-center text-sm font-semibold text-accent hover:text-charcoal transition">
+                Read on Medium →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog 11 -->
+          <article class="bg-white border border-white shadow-sm rounded-2xl overflow-hidden flex flex-col hover:shadow-md transition">
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-xs font-semibold text-accent uppercase tracking-wide">NLP</span>
+              <h3 class="mt-3 text-lg font-semibold text-charcoal">Intent Recognition from Natural Language Prompts: Exploring the Magic</h3>
+              <p class="mt-3 text-sm text-coolgray flex-1">
+                Deep dive into intent recognition techniques and how to extract meaning from natural language inputs.
+              </p>
+            </div>
+            <div class="px-6 pb-6">
+              <a href="https://medium.com/@theirfan/intent-recognition-from-natural-language-prompts-exploring-the-magic-3e1a657a931b" target="_blank" rel="noopener" class="inline-flex items-center text-sm font-semibold text-accent hover:text-charcoal transition">
+                Read on Medium →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog 12 -->
+          <article class="bg-white border border-white shadow-sm rounded-2xl overflow-hidden flex flex-col hover:shadow-md transition">
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-xs font-semibold text-accent uppercase tracking-wide">ML Pipeline</span>
+              <h3 class="mt-3 text-lg font-semibold text-charcoal">Building Machine Learning Pipeline Using PyCaret</h3>
+              <p class="mt-3 text-sm text-coolgray flex-1">
+                A practical guide to building end-to-end machine learning pipelines using the PyCaret library.
+              </p>
+            </div>
+            <div class="px-6 pb-6">
+              <a href="https://medium.com/@theirfan/building-machine-learning-pipeline-using-pycaret-e1086fe91431" target="_blank" rel="noopener" class="inline-flex items-center text-sm font-semibold text-accent hover:text-charcoal transition">
+                Read on Medium →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog 13 -->
+          <article class="bg-white border border-white shadow-sm rounded-2xl overflow-hidden flex flex-col hover:shadow-md transition">
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-xs font-semibold text-accent uppercase tracking-wide">Design Patterns</span>
+              <h3 class="mt-3 text-lg font-semibold text-charcoal">Strategy Design Pattern in E-commerce</h3>
+              <p class="mt-3 text-sm text-coolgray flex-1">
+                Applying the Strategy design pattern to solve common problems in e-commerce system architecture.
+              </p>
+            </div>
+            <div class="px-6 pb-6">
+              <a href="https://medium.com/@theirfan/strategy-design-pattern-in-e-commerce-cbc6243a216b" target="_blank" rel="noopener" class="inline-flex items-center text-sm font-semibold text-accent hover:text-charcoal transition">
+                Read on Medium →
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="mt-12 flex flex-wrap items-center gap-4">
+          <a href="index.html" class="inline-flex items-center px-5 py-3 text-sm font-semibold text-charcoal bg-accent rounded-lg shadow hover:bg-white transition">
+            ← Back to Home
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-charcoal text-white">
+    <div class="max-w-6xl mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-white/70">
+      <p>© <span id="year"></span> Irfan Ullah. All rights reserved.</p>
+      <div class="flex items-center gap-4">
+        <a href="index.html#home" class="hover:text-accent transition">Back to top</a>
+        <a href="#" class="hover:text-accent transition">Privacy</a>
+        <a href="#" class="hover:text-accent transition">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
+
