@@ -28,6 +28,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 </head>
 
 <body class="font-sans text-coolgray bg-mist">
@@ -664,11 +666,17 @@
               <div>
                 <h4 class="text-sm font-semibold text-charcoal uppercase tracking-wide">Schedule a call</h4>
                 <p>Book a 30-minute AI strategy call to explore your roadmap.</p>
+                <div class="mt-3">
+                  <a href="#" onclick="Calendly.initPopupWidget({ url: 'https://calendly.com/theirfanullah/project-initial-meeting' }); return false;"
+                    class="inline-flex items-center px-4 py-2 text-sm font-semibold text-charcoal bg-accent rounded-lg shadow hover:bg-white transition">
+                    Book via Calendly
+                  </a>
+                </div>
               </div>
               <div>
                 <h4 class="text-sm font-semibold text-charcoal uppercase tracking-wide">Email</h4>
-                <a href="mailto:irfan@productwithirfan.com" class="text-accent hover:text-charcoal transition">
-                  irfan@productwithirfan.com
+                <a href="mailto:the.irfan.se@gmail.com" class="text-accent hover:text-charcoal transition">
+                  the.irfan.se@gmail.com
                 </a>
               </div>
               <div>
@@ -685,36 +693,8 @@
             </div>
           </div>
 
-          <div class="bg-white border border-white shadow-sm rounded-2xl p-8">
-            <form class="space-y-5">
-              <div>
-                <label for="name" class="block text-sm font-semibold text-charcoal">Name</label>
-                <input type="text" id="name" name="name" placeholder="Your name"
-                  class="mt-1 w-full rounded-lg border border-coolgray/30 bg-mist px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-accent/60" />
-              </div>
-              <div>
-                <label for="email" class="block text-sm font-semibold text-charcoal">Email</label>
-                <input type="email" id="email" name="email" placeholder="you@company.com"
-                  class="mt-1 w-full rounded-lg border border-coolgray/30 bg-mist px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-accent/60" />
-              </div>
-              <div>
-                <label for="company" class="block text-sm font-semibold text-charcoal">Company</label>
-                <input type="text" id="company" name="company" placeholder="Organization / Startup"
-                  class="mt-1 w-full rounded-lg border border-coolgray/30 bg-mist px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-accent/60" />
-              </div>
-              <div>
-                <label for="message" class="block text-sm font-semibold text-charcoal">Project Goals</label>
-                <textarea id="message" name="message" rows="4" placeholder="Tell me about your AI roadmap or challenge..."
-                  class="mt-1 w-full rounded-lg border border-coolgray/30 bg-mist px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-accent/60"></textarea>
-              </div>
-              <button type="submit"
-                class="inline-flex items-center justify-center w-full px-4 py-3 text-sm font-semibold text-charcoal bg-accent rounded-lg shadow hover:bg-white transition">
-                Submit Inquiry
-              </button>
-              <p class="text-xs text-coolgray/70">
-                By reaching out, you consent to receive a response regarding your project. No spam—ever.
-              </p>
-            </form>
+          <div class="bg-white border border-white shadow-sm rounded-2xl p-4 lg:p-6">
+            <div class="calendly-inline-widget" data-url="https://calendly.com/theirfanullah/project-initial-meeting" style="min-width:320px;height:720px"></div>
           </div>
         </div>
       </div>
